@@ -2,7 +2,7 @@
 public class Regladetres {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Aquí escribimos nuestro codigo de resolución de reglas de tres 
 
 	}
 

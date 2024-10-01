@@ -6,22 +6,33 @@ public class ReglaDe3 {
 
 	public static void main(String[] args) {
 		
-		System.out.print("Introduce un valor de a : ");
-		
-		Scanner scan = new Scanner(System.in); 
-		
-		String a = scan.nextLine();
-		
-		System.out.print("Introduce un valor de b : ");
-		
-		String b =  scan.nextLine();
-		
-		System.out.print("Introduce un valor de c :");
-		
-		int c = scan.nextShort();
-		
-		scan.close(); 
-
+		// Aquí escribimos nuestro código de resolución de reglas de 3
+				System.out.println("""
+						Introduce los valores para resolver la regla de 3
+						a ---> b
+						c ---> x
+						""");
+				// Declaración del objeto Scanner
+				Scanner scan = new Scanner(System.in);
+				// Definición de las variables del programa
+				double a, b, c;
+				System.out.print("Introduce el parámetro a:");
+				a = scan.nextDouble();
+				System.out.print("\nIntroduce el parámetro b:");
+				b = scan.nextDouble();
+				System.out.print("\nIntroduce el parámetro c:");
+				c = scan.nextDouble();
+				// solución x = (b*c)/a
+				//TODO: Controlar que no se dé a=0
+				double x = (b*c)/a;
+				System.out.println("\nLa solución de la regla de 3 es:");
+				System.out.print(a);
+				System.out.print(" ---> ");
+				System.out.println(b);
+				System.out.print(c);
+				System.out.print(" ---> ");
+				System.out.print(x);
+				scan.close();
 	
 		
 		

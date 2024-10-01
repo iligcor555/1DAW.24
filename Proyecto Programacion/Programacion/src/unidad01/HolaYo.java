@@ -17,10 +17,12 @@ public class HolaYo {
 		System.out.print("Introduce tu año de nacimiento :"); 
 		int anioNacimiento = scan.nextShort(); 
 		int edad = 2024 - anioNacimiento; 
-		System.out.println("Hola" + nombre + "! Tienes " + edad + "años." );
+		System.out.println("Hola " + nombre + "! Tienes " + edad + "años." );
 		scan.close(); 
 		
 	}
 	
 
 }
+
+//Cuando el ususario no me ninguna 
